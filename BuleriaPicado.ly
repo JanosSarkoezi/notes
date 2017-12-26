@@ -1,6 +1,6 @@
 \version "2.18.2"
 
-upper = \relative c' {
+upper = \relative c {
   \key c \major
   \time 12/4
   \voiceOne
@@ -34,7 +34,7 @@ upper = \relative c' {
   <a e' a cis e>4 <a e' a cis e>  \bar "|."
 }
 
-lower = \relative c' {
+lower = \relative c {
   \key c \major
   \voiceTwo
   % 1. Zeile
@@ -65,6 +65,7 @@ lower = \relative c' {
 
 \score {
   \new Staff = "guitar" <<
+    \clef "treble_8"
     \context Voice = "upper" \upper
     \context Voice = "lower" \lower
   >>
