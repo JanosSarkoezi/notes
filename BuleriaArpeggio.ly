@@ -17,7 +17,7 @@ upper = \relative c {
   % 6. Zeile
   bes [f] e [bes'] f [e] bes' [f] d [cis'] f, [a]~ a [e] a, [a'] e [a,] a' [e] a, [g'] d <a a'>~ \break
   % 7. Zeile
-  a' [e] a, [a'] e [a,] a' [e] a, [g'] d <a a'>~ <a' a,>4 g,8 [_(a)] (a) [g] _(a2) r4
+  a' [e] a, [a'] e [a,] a' [e] a, [g'] d <a a'>~ <a' a,>4 g,8 [_(a)] (a) [g] _(a2) r4 \bar "|."
 }
 
 lower = \relative c {
